@@ -1,0 +1,33 @@
+{
+  "name": "application-template",
+  "version": "1.0.0",
+  "description": "Clean architectural spine: frontend/backend capability runtimes, contracts, and isolated domain code",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./frontend": "./frontend/index.ts",
+    "./backend": "./backend/index.ts",
+    "./contracts": "./contracts/index.ts",
+    "./application": "./application/index.ts",
+    "./shared": "./shared/index.ts"
+  },
+  "files": [
+    "frontend",
+    "backend",
+    "contracts",
+    "application",
+    "shared",
+    "README.md",
+    "BOUNDARY.md"
+  ],
+  "keywords": [
+    "architecture",
+    "runtime",
+    "contracts",
+    "motion",
+    "cognition",
+    "communications",
+    "governance"
+  ],
+  "license": "UNLICENSED"
+}

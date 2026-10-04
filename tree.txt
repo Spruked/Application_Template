@@ -1,0 +1,43 @@
+Application_Template
+|-- application
+|   |-- adapters
+|   |   `-- index.ts
+|   |-- config
+|   |   `-- index.ts
+|   |-- product
+|   |   `-- index.ts
+|   `-- index.ts
+|-- backend
+|   |-- motion
+|   |   `-- index.ts
+|   |-- cognition
+|   |   `-- index.ts
+|   |-- communications
+|   |   `-- index.ts
+|   |-- governance
+|   |   `-- index.ts
+|   `-- index.ts
+|-- contracts
+|   |-- authority.contract.ts
+|   |-- motion.contract.ts
+|   |-- cognition.contract.ts
+|   |-- communications.contract.ts
+|   |-- evidence.contract.ts
+|   `-- index.ts
+|-- frontend
+|   |-- motion
+|   |   `-- index.ts
+|   |-- cognition
+|   |   `-- index.ts
+|   |-- communications
+|   |   `-- index.ts
+|   |-- governance
+|   |   `-- index.ts
+|   `-- index.ts
+|-- shared
+|   |-- index.ts
+|   `-- types.ts
+|-- BOUNDARY.md
+|-- package.json
+|-- README.md
+`-- tree.txt
